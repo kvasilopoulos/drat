@@ -1,4 +1,5 @@
 Package: exuberdata
 Version: 0.0.0.9000
-MD5sum: 62120b4d5ba2371b037d2ce55e062c4b
+Imports: exuber
+MD5sum: 561b7165ceb9184e8062ed6a528b96f0
 NeedsCompilation: no
