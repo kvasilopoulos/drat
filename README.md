@@ -20,3 +20,4 @@ You can learn more about drat from the vignettes Drat for Package Users
 and Drat for Package Authors.
 
     #> [1] "exuberdata_0.0.0.9000.tar.gz" "exuberdata_0.0.0.9001.tar.gz"
+    #> [3] "exuberdata_0.0.0.9003.tar.gz"
