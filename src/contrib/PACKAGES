@@ -1,4 +1,6 @@
 Package: exuberdata
-Version: 0.0.0.9001
-MD5sum: 214a605a169435f9c6ed9fcdefad9d7e
+Version: 0.0.0.9005
+Depends: R (>= 3.6)
+License: GPL-3
+MD5sum: 36299d336c42c78e8789818f0c539ca0
 NeedsCompilation: no
