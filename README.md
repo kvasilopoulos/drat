@@ -1,23 +1,77 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# drat
+![Build
+packages](https://github.com/kvasilopoulos/drat/workflows/Build%20packages/badge.svg)
 
-This drat for both insertion of packages, and usage from R.
+``` r
+install.packages('exuberdata', repos = 'https://kvasilopoulos.github.io/drat/', type = 'source')
+```
 
-## Current Content
+To install packages from
 
-Please see here for packages currently in the ghrr repo. Setup Simply
-install the drat CRAN package the usual way via install.packages(“drat”,
-repos=“<http://cran.rstudio.com>”). Add one line to your .Rprofile file
-(or to Rprofile.site): drat:::add(“ghrr”) That’s it\! Now use
-install.packages() or update.packages() and the ghrr will be considered
-just like the standard repositories for R.
+``` r
+install.packages("drat", repos = "https://cran.rstudio.com")
+```
+
+Now you can use {drat} to register the R4EPIs repository as a valid
+repository:
+
+``` r
+drat:::add("kvasilopoulos")
+```
+
+Now you can install
+
+``` r
+install.packages("exuberdata")
+```
+
+# Maintaining this page
+
+The packages included in this drat repository are maintained in the
+[packages.txt](./packages.txt), which contains the github accounts and
+names of the packages.
+
+The data and metadata associated with this page are built with the
+[{drat.builder}](https://github.com/richfitz/drat.builder) package.
+
+## Automated builds
+
+This page is maintained under a [GitHub
+Action](https://github.com/R4EPI/drat/actions?query=workflow%3A%22Build+packages%22)
+that will check if the packages updated and build them to this repo. If
+you want to update a package (e.g. change its version number), edit the
+[packages.txt](./packages.txt) file and the [GitHub
+Action](https://github.com/R4EPI/drat/actions?query=workflow%3A%22Build+packages%22)
+will update the packages automagically.
+
+## Manual builds
+
+Assuming the above works just fine, you shouldn’t have to use this, but
+it is here for posterity.
+
+Install {drat.builder} via {remotes}:
+
+``` r
+remotes::install_github("richfitz/drat.builder")
+```
+
+Steps for updating this page:
+
+1.  Pull from the remote to make sure you have the entire history
+2.  Open R from this directory
+3.  Run `drat.builder::build()`
+4.  push the changes
+
+## Content
+
+    #> [1] "exuberdata_0.0.0.9000.tar.gz" "exuberdata_0.0.0.9001.tar.gz"
+    #> [3] "exuberdata_0.0.0.9003.tar.gz" "exuberdata_0.0.0.9004.tar.gz"
+    #> [5] "exuberdata_0.0.0.9005.tar.gz" "exuberdata_0.0.0.9006.tar.gz"
+    #> [7] "exuberdata_0.0.1.tar.gz"
 
 ## More
 
 You can learn more about drat from the vignettes Drat for Package Users
 and Drat for Package Authors.
-
-    #> [1] "exuberdata_0.0.0.9000.tar.gz" "exuberdata_0.0.0.9001.tar.gz"
-    #> [3] "exuberdata_0.0.0.9003.tar.gz"
