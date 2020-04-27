@@ -1,6 +1,7 @@
 Package: exuberdata
-Version: 0.0.1
+Version: 0.1.0
 Depends: R (>= 3.6)
+Suggests: testthat
 License: GPL-3
-MD5sum: 5847d85e70fa1ca8ad54cf6713e067d0
+MD5sum: 0b1feaf543344a4d6866c1b41591f954
 NeedsCompilation: no
