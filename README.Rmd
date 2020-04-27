@@ -12,29 +12,31 @@ knitr::opts_chunk$set(
 ```
 ![Build packages](https://github.com/kvasilopoulos/drat/workflows/Build%20packages/badge.svg)
 
+There are two ways to install packages from this [drat repo](https://github.com/kvasilopoulos/drat).
+
+1. By specifying the repo in `install.packages()`
+
 ```r
 install.packages('exuberdata', repos = 'https://kvasilopoulos.github.io/drat/', type = 'source')
 ```
 
-To install packages from 
+2. By registering `kvasilopoulos` repository as a valid repository
 
 ```r
-install.packages("drat", repos = "https://cran.rstudio.com")
-```
-
-Now you can use {drat} to register the R4EPIs repository as a valid repository:
-
-```r
+install.packages("drat")
 drat:::add("kvasilopoulos")
 ```
-
-Now you can install
+Now you can install and update packages without specfying the `repo` and the `type`.
 
 ```r
 install.packages("exuberdata")
 ```
 
 # Maintaining this page
+
+## drat.builder and gh-actions
+
+Instructions on the how to set up drat.builder with gh-actions are in this [ Post](https://zkamvar.netlify.app/) by [Zhian N. Kamvar](https://github.com/zkamvar).
 
 The packages included in this drat repository are maintained in the
 [packages.txt], which contains the github accounts and names of
@@ -69,8 +71,7 @@ Steps for updating this page:
 4. push the changes
 
 [packages.txt]: ./packages.txt
-[GitHub Action]: https://github.com/R4EPI/drat/actions?query=workflow%3A%22Build+packages%22
-
+[GitHub Action]: https://github.com/kvasilopoulos/drat/actions?query=workflow%3A%22Build+packages%22
 
 ## Content
 
