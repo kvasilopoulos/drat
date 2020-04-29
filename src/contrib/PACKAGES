@@ -3,5 +3,5 @@ Version: 0.1.0
 Depends: R (>= 3.6)
 Suggests: testthat
 License: GPL-3
-MD5sum: 660318480715facbccb28065a50f068f
+MD5sum: e6e6f8b02847ab0f4187096114c4744e
 NeedsCompilation: no
