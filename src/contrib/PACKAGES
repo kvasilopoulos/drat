@@ -3,9 +3,5 @@ Version: 0.1.0
 Depends: R (>= 3.6)
 Suggests: testthat
 License: GPL-3
-<<<<<<< HEAD
-MD5sum: b3b39b652bb6f156a69136940866ad5f
-=======
-MD5sum: e6e6f8b02847ab0f4187096114c4744e
->>>>>>> 3570d5581399d44b82bdfb14d30e4f1d42a6131f
+MD5sum: dfd77fe8edd7d132aee738017a5e7105
 NeedsCompilation: no
