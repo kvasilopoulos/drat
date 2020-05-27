@@ -9,7 +9,7 @@ NeedsCompilation: no
 Package: subprocess
 Version: 0.8.4
 Depends: R (>= 3.2.0)
-Suggests: mockery, testthat, knitr, rmarkdown (>= 1.0)
+Suggests: knitr, mockery, rmarkdown (>= 1.0), testthat
 License: MIT + file LICENSE
-MD5sum: 24f0e667d409bf54375807ce8ef95f33
+MD5sum: 6e6281c95ffe4e7e517502095eb246a1
 NeedsCompilation: yes
