@@ -5,3 +5,11 @@ Suggests: testthat
 License: GPL-3
 MD5sum: dfd77fe8edd7d132aee738017a5e7105
 NeedsCompilation: no
+
+Package: subprocess
+Version: 0.8.4
+Depends: R (>= 3.2.0)
+Suggests: mockery, testthat, knitr, rmarkdown (>= 1.0)
+License: MIT + file LICENSE
+MD5sum: 24f0e667d409bf54375807ce8ef95f33
+NeedsCompilation: yes
