@@ -41,11 +41,11 @@ MD5sum: 1aaebf462af46fd2d690dfb8b7c47788
 NeedsCompilation: no
 
 Package: exuberdata
-Version: 0.1.0
+Version: 0.2.0
 Depends: R (>= 3.6)
 Suggests: testthat
 License: GPL-3
-MD5sum: fbcfcb456ec75ca1ee60459cc1658d59
+MD5sum: d90a994d6039c8658fb9e8855f7c7a1d
 NeedsCompilation: no
 
 Package: subprocess
