@@ -1,9 +1,51 @@
 Package: exuberdata
+Version: 0.0.0.9000
+Imports: exuber
+MD5sum: d9a4ab211265f29745530910f7371e8c
+NeedsCompilation: no
+
+Package: exuberdata
+Version: 0.0.0.9001
+MD5sum: 214a605a169435f9c6ed9fcdefad9d7e
+NeedsCompilation: no
+
+Package: exuberdata
+Version: 0.0.0.9003
+MD5sum: 2ad4b1ef716534548fbc7f7c575660fb
+NeedsCompilation: no
+
+Package: exuberdata
+Version: 0.0.0.9004
+MD5sum: c2c5ec9ed909930afc6a571511eac628
+NeedsCompilation: no
+
+Package: exuberdata
+Version: 0.0.0.9005
+Depends: R (>= 3.6)
+License: GPL-3
+MD5sum: 53e8dd8f6a90c473ec33a7dfbc4f7bde
+NeedsCompilation: no
+
+Package: exuberdata
+Version: 0.0.0.9006
+Depends: R (>= 3.6)
+License: GPL-3
+MD5sum: 42f0c4241d0a83af172bb20b9e29c298
+NeedsCompilation: no
+
+Package: exuberdata
+Version: 0.0.1
+Depends: R (>= 3.6)
+License: GPL-3
+MD5sum: 1aaebf462af46fd2d690dfb8b7c47788
+NeedsCompilation: no
+
+Package: exuberdata
 Version: 0.1.0
 Depends: R (>= 3.6)
 Suggests: testthat
 License: GPL-3
-MD5sum: dfd77fe8edd7d132aee738017a5e7105
+MD5sum: fbcfcb456ec75ca1ee60459cc1658d59
 NeedsCompilation: no
 
 Package: subprocess
